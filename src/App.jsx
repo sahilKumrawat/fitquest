@@ -4,9 +4,11 @@ import ForgotPassword from './pages/ForgotPassword'
 import './App.css'
 import VerificationCode from './pages/VerificationCode';
 import NewPassword from './pages/NewPassword';
+import UserManagement from './pages/UserManagement';
+import Dashboard from './pages/Dashboard';
 
 function App() {
-
+ 
   return (
     <>
       <Router>
@@ -16,6 +18,9 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/verify-otp" element={<VerificationCode />} />
         <Route path="/reset-password" element={<NewPassword />} />
+
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/user-management" element={<UserManagement />} />
       </Routes>
     </Router>
     </>

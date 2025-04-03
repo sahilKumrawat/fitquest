@@ -19,6 +19,7 @@ const AdminLogin = () => {
 
         {/* ............................................Admin Panel.................................... */}
         <div className="w-1/2 h-full bg-white px-12 py-20 flex flex-col justify-center">
+          {/* FitQuest Logo */}
           <div className="flex justify-center mb-7">
             <img src="/src/assets/images/fitquestLogo1.png" alt="FitQuest Logo" className="h-20 " />
           </div>
@@ -60,7 +61,7 @@ const AdminLogin = () => {
             </div>
 
             {/* Button for Login */}
-            <button className='w-full rounded-xl h-8' style={{backgroundColor : "#6B6DFE", color : 'white' }} onClick={()=>handleLogin()}>Login</button>
+            <button className='w-full rounded-xl h-8' style={{ backgroundColor: "#6B6DFE", color: 'white' }} onClick={() => handleLogin()}>Login</button>
 
 
           </div>
